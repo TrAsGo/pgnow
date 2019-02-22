@@ -5,13 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='pgnow',  
-     version='0.1',
-     scripts=['pgnow'] ,
+     version='0.2.2',
      author="Fede Kamelhar",
      author_email="fkamelhar@gmail.com",
      description="A Tool to Integrate PG8000 into your application",
      long_description=long_description,
-   long_description_content_type="text/markdown",
+     long_description_content_type="text/markdown",
      url="https://github.com/TrAsGo/pgnow",
      packages=setuptools.find_packages(),
      classifiers=[
