@@ -12,7 +12,7 @@ setuptools.setup(
      description="A Tool to Integrate PG8000 into your application",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/javatechy/dokr",
+     url="https://github.com/TrAsGo/pgnow",
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
