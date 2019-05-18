@@ -19,6 +19,7 @@ def create_db_connection(
         user: str,
         password: str,
         timeout: int,
+        ssl: bool
 ) -> pg8000.Connection:
     """
     Creates a database connection session.
@@ -32,6 +33,7 @@ def create_db_connection(
     :param user:
     :param password:
     :param timeout:
+    :param ssl:
     :return:
     """
     try:
@@ -46,6 +48,7 @@ def create_db_connection(
             user=user,
             password=password,
             timeout=timeout,
+            ssl=ssl,
         )
     except pg8000.InterfaceError:
         logging.getLogger().error(
