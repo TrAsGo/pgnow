@@ -19,7 +19,7 @@ def create_db_connection(
         user: str,
         password: str,
         timeout: int,
-        ssl: bool
+        ssl: bool = False
 ) -> pg8000.Connection:
     """
     Creates a database connection session.
